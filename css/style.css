@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.startPage{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.startPage .startBtn{
+    background-image: url("../img/startGame.png");
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    height: 170px;
+}
+.wrapper{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../img/bg.jpg");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+.wrapper .left-side{
+    width: 24%;
+    position: absolute;
+    height: 1000px;
+    /*border: 1px solid #000;*/
+}
+.wrapper .left-side img{
+    display: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.wrapper .main{
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 90%;
+    /*border: 1px solid #000;*/
+}
+.wrapper .main .header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.wrapper .main .header .score{
+    line-height: 80px;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.wrapper .main .content{
+    position: absolute;
+    width: 79.5%;
+    height: 36.5%;
+    top: 34%;
+    left: 10%;
+    /*border: 1px solid red;*/
+}
+.loser{
+    display: none;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.loser .con{
+    background-image: url("../img/startP.jpg");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-59%);
+    border-radius: 20px;
+}
+.loser .con .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/closeBtn.png");
+    -webkit-background-size: 100% 100%;
+    background-size:100% 100% ;
+    cursor: pointer;
+}
+.loser .con .loserScore{
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    color:#222;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.food{
+    background-image: url("../img/apple.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.head{
+    background-image: url("../img/head.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.body{
+    background-image: url("../img/body.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
